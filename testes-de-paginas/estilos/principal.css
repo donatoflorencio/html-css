@@ -13,7 +13,8 @@ body, html {
 }
 
 header#container {
-	border: 2px solid black;
+	width: 100vw;
+	height: auto;
 }
 
 #container-one {
@@ -46,7 +47,7 @@ header#container {
 	border-right: 3px solid rgba(128, 128, 128, 0.092);
 }
 .list-tree a {
-	color: green;
+	color: rgb(53, 187, 0);
 	border-right: 3px solid rgba(128, 128, 128, 0.092);
 }
 .list-four a {
@@ -76,8 +77,8 @@ header#container {
 
 
 #container-two {
-	background-color: #06aa48;
-	color: white;
+	background-color: #f3c500;
+	color: #00612f;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
