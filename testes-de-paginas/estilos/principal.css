@@ -42,7 +42,7 @@ header#container {
 
 
 .list-one a {
-	color: rgb(0, 75, 214);
+	color: #0669de;
 	border-right: 3px solid rgba(128, 128, 128, 0.092);
 }
 .list-two a {
@@ -82,18 +82,55 @@ header#container {
 	background-color: #f3c500;
 	color: #00612f;
 	width: 100vw;
+	height: 75px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0px 10px;
-	height: 70px;
 }
 
 #container-two p {
 	font-size: 3em;
 	font-weight: bolder;
 	padding-bottom: 10px;
+
 }
+
+#container-two > span{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+#container-two span p {
+	display: inline-block;
+	font-size: .7em;
+	font-weight: 600;
+	border-right: 1px dotted rgba(128, 128, 128, 0.773);
+	border-width: .05cm;
+
+	padding-right: 25px;
+	margin-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+	position: absolute;
+	top: 15%;
+	left: 0.75rem;
+	
+ }
+
+
+.material-symbols-outlined {
+	font-variation-settings:
+	'FILL' 0,
+	'wght' 900,
+	'GRAD' 0,
+	'opsz' 48;
+	position: absolute;
+	top: 0%;
+	right: 23%;
+}
+
 
 
 
