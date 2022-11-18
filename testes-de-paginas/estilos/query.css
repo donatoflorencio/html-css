@@ -1,2 +1,12 @@
-/*@charset "UTF-8";
+@charset "UTF-8";
 
+@media screen and (max-width: 775px) {
+    #container-one {
+        display: none;
+    }
+
+    #container-two {
+        height: 50px;
+        font-size: .8em;
+    }
+}
