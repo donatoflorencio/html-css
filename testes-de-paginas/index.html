@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="estilos/query.css">
     <link rel="stylesheet" href="estilos/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <title>Tenatando re-criar o ge</title>
 </head>
@@ -32,10 +31,26 @@
         </div>
         <!--  -->
         <div id="container-two">
-            <span class="material-icons span-menu">menu <p>MENU</p> </span>
-            <span class="material-symbols-outlined">shield</span>
-            <p>ge</p>
-            <span class="material-icons span-shearch">search</span>
+            <section class="section section-one">
+                <span class="material-icons span-menu">menu </span>
+                <p>MENU</p>
+            </section>
+            <section class="section section-two">
+                <span class="material-icons span-shield">shield</span>
+                <p>TIMES</p>
+            </section>
+            <section class="section section-tree">
+                <h1>ge</h1>
+            </section>
+            <section class="section section-fuor">
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="ilogin"><span class="material-icons span-shearch">search</span></label>
+                        <input type="search" name="login" id="ilogin" placeholder="BUSCAR" autocomplete="off" required maxlength="30">
+                    <!-- <span class="material-icons span-shearch">search</span> -->
+                </form>
+            </section>
+            
         </div>
     </header>
     <!--  -->
