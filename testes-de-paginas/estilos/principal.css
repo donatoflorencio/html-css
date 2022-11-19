@@ -12,8 +12,18 @@ body, html {
 	height: 100vh;
 }
 
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	background-color: rgb(171, 168, 168);
+}
+
 header#container {
 	width: 100vw;
+	max-width: 50vw;
 	height: auto;
 }
 
@@ -23,6 +33,7 @@ header#container {
 	justify-content: space-between;
 	align-items: center;
 	height: 45px;
+	width: 100vw;
 }
 
 .container-list {
@@ -36,7 +47,7 @@ header#container {
 .container-list li, a {
 	text-decoration: none;
 	list-style-type: none;
-	font-size: 1em;
+	font-size: 1.5rem;
 	font-weight: bolder;
 }
 
@@ -61,16 +72,16 @@ header#container {
 }
 
 .container-list img {
-	width: 30px;
+	width: 20px;
 	margin: 0px;
 	border-radius: 5px;
 	border: none;
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 .ul-two a {
 	color: gray;
-	font-size: .8em;
+	font-size: 1.2rem;
 	font-weight: normal;
 }
 
@@ -88,7 +99,7 @@ header#container {
 
 .section {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -120,10 +131,16 @@ header#container {
 }
 .section-fuor {
 	justify-content: end;
+	margin-right: 15px;
 }
 
 .section-fuor .campo {
 	display: flex;
+}
+
+.section-fuor .campo span {
+	font-size: 2.2em;
+	color: #ffff;
 }
 
 .section-fuor input {
@@ -134,8 +151,16 @@ header#container {
 	padding: 10px;
 	height: 35px;
 	width: 150px;
-	
 }
+
+
+.section-fuor label {
+	padding-top: 5px;
+	font-size: 1rem;
+	width: 0px;
+	display: block;
+}
+
 
 .section-fuor ::placeholder {
 	color: white;
@@ -143,19 +168,6 @@ header#container {
 	font-size: 1.1em;
 	padding-left: 20px;
 }
-
-.section-fuor label {
-	padding-top: 5px;
-	font-size: .8em;
-	width: 0px;
-	z-index: 1;
-}
-
-.section-fuor .campo span {
-	font-size: 2.2em;
-	color: #ffff;
-}
-
 
 
 
