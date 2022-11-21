@@ -72,7 +72,6 @@ html {
     align-items: center;
     text-transform: uppercase;
     font-size: .8rem;
-
 }
 
 .navegation-um > .menu-dois > .li-um a {
@@ -86,8 +85,9 @@ html {
 
 .navegation-um > .menu-dois img {
     width: 2rem;
-    border-radius: 50%;
+    border-radius: 25%;
     padding-right: 0.3rem;
+    margin: 0px;
 }
 
 /* parte de baixo do header */
