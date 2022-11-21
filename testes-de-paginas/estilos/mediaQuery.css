@@ -16,3 +16,20 @@
 } 
 }
 
+/* GRID 2 */
+
+@media (max-width: 650px) {
+    .grid2 {
+        grid-template-columns: 1fr;
+}
+
+    .sidebar {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .sidebar > div {
+        flex: 1 0 200px;
+        margin: 0 10px;
+    }
+}
