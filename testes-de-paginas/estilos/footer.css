@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+:root {
+    --color-barnco: #f3f3f3;
+    --color-yelloow: #f3c500;
+    --color-green: #00612f;
+}
+
+
+#footer {
+    background-color: var(--color-green-fraco);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 98.8vw;
+    height: 100px;
+    margin: auto;
+}
+
+#footer > .lu {
+    color: white;
+    display: flex;
+}
+
+#footer > .lu-um {
+    grid-column: 1 / 3;
+    align-items: center;
+    padding-left: 5.2rem;
+    gap: 1rem;
+}
+
+#footer > .lu-dois {
+    grid-column: 1/1;
+    grid-row: 2/2;
+    align-items: center;
+    padding-left: 5.2rem;
+}
+
+#footer > .lu-tres {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 8rem;
+    
+    font-size: 12px;
+}
+
