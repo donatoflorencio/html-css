@@ -12,23 +12,22 @@
     grid-template-columns: .5fr 1fr .5fr;
     grid-template-rows: 93vh 10vh;
 
-    width: 58%;
+    width: 80vw;
     max-width: 80vw;
     height: 100%;
-    margin: 3rem auto 0px 7.7rem;
-    gap: 5px;
+    margin: auto;
 }
 
 .aside-um {
- background-color: red;
+    border: 1px solid red;
 }
 
 .section {
-    background-color: red;
+border: 1px solid red;
 }
 
 .aside-dois {
-    background-color: red;
+border: 1px solid red;
 }
 
 section.veja-mais {
