@@ -11,19 +11,46 @@ body, html {
 
     --color-font: #123123;
     --color-principal: #129150;
+    --color-verde-amarelado: #999666;
+    --color-verde-amarelado-forte: #242318; 
+    --color-salmao: #f99666;
+}
+body {
+    max-width: 80vw;
+    margin: 0 auto;
+    background: linear-gradient(to right, #123123 16.62%, #129150 85.61%); 
 }
 
-.cabecalho {border: 1px solid var(--color-font);
-    :
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
 }
 
-.conteudo {border: 1px solid var(--color-font);
-    :
+.imagem-logo {
+    height: 75px;
 }
 
+.cabecalho-menu {
+    display: flex;
+    gap: 5vw;
+}
 
-.rodape {border: 1px solid var(--color-font);
-   :
+.cabecalho-menu .ancora {
+    color: #daffec;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.conteudo {
+    margin-top: 40px;
+    
+}
+
+.rodape {
 }
 
 
