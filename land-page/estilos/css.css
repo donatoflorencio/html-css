@@ -254,7 +254,7 @@
     font-weight: 500;
 }
 
-#cta .bnt {
+#cta .btn {
     width: 30%;
     margin: 0 auto;
     font-weight: 600;
@@ -386,7 +386,7 @@
     #cta {
         text-align: center;
     }
-    #cta .bnt {
+    #cta .btn {
         width: 80%;
     }
 }
