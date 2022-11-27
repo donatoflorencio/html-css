@@ -54,6 +54,7 @@
     font-weight: bold;
 }
 
+/* Subscription Form */
 #subscription-form {
     background-color: var(--secondary);
     padding: 2em;
