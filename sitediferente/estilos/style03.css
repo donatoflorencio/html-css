@@ -104,7 +104,7 @@ body,html {
 }
 
 .principal .div-conteudo .imagem {
-  height: 430px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -139,4 +139,65 @@ body,html {
   justify-content: center;
   margin-top: 30px;
   border-top: .8px solid #fff2e7;
+}
+
+/* Médias Queris */
+@media (min-width: 425px) {
+  html {
+    font-size: 45%;
+  }
+
+  .cabecalho {
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .cabecalho .logo {
+    padding-top: 0px;
+  }
+
+  .cabecalho .links {
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+  }
+
+  .principal .div-conteudo{
+    height: 100%;
+    flex-direction: column;
+  }
+  
+  .principal .div-conteudo .imagem {
+    order: -1;
+    width: 100%;
+  }
+
+  .principal .div-conteudo .conteudo .btn {
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    margin-bottom: 10rem;
+    letter-spacing: 2px;
+  }
+
+  .principal .conteudo-secundario {
+    height: 100%;
+  }
+
+  .principal .conteudo-secundario .sub-titulo {
+    padding-top: 2em;
+    letter-spacing: 1.1px;
+  }
+
+  .principal .conteudo-secundario .texto {
+    width: 100%;
+    padding: 8px 8px;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
+
+  .rodape {
+    margin-top: 10px;
+  }
 }
