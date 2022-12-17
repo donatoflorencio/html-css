@@ -142,7 +142,7 @@ body,html {
 }
 
 /* Médias Queris */
-@media (min-width: 425px) {
+@media (max-width: 720px) {
   html {
     font-size: 45%;
   }
