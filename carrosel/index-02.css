@@ -1,12 +1,10 @@
 * {
   font-family: "Verdana", sans-serif;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  letter-spacing: 0px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  scroll-behavior: smooth;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: .5px;
+  scroll-behavior: smooth;
   color: #fff;
 }
 
@@ -14,7 +12,6 @@ body {
   margin: 2rem;
   background-color: #212123;
 }
-
 
 .carrosel {
   -webkit-perspective: 250px;
@@ -24,43 +21,55 @@ body {
   top: 50px;
   position: relative;
   margin: 0 auto;
+  perspective: 250px;
+  perspective: 250px;
 }
 
-@-webkit-keyframes efeitoCarrosel {
+@keyframes efeitoCarrosel {
   from {
-      -webkit-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
-      -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+    -webkit-transform: 
+rotateX(360deg) translateZ(130px)
+rotateY(-360deg);
+      transform: 
+rotateY(360deg) translateZ(130px)
+rotateY(-360deg);
       z-index: 10;
       opacity: 1;
   }
 
   50% {
-      z-index: -10;
+    z-index: -10;
   }
 
   to {
-      -webkit-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
-      -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
-      z-index: 10;
-      opacity: 1;
+    -webkit-transform: 
+rotateY(0deg) translateZ(130px)
+rotateY(0deg);
+    -moz-transform: rotateY(0deg)
+translateZ(130px) rotateY(0deg);
+    z-index: 10;
+    opacity: 1;
   }
 }
 
 @-moz-keyframes efeitoCarrosel {
   from {
-      -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
-      z-index: 10;
-      opacity: 1;
+    -moz-transform: 
+    rotateY(360deg) translateZ(130px)
+rotateY(-360deg);
+    z-index: 10px;
+    opacity: 1;
   }
 
   50% {
-      z-index: -10;
+    z-index: -10px;
   }
 
   to {
-      -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
-      z-index: 10;
-      opacity: 1;
+    -moz-transform: rotateY(0deg)
+translateZ(130px) rotateY(0deg);
+    z-index: 10;
+    opacity: 1;
   }
 }
 
@@ -70,12 +79,12 @@ body {
   background-color: #442222;
   position: absolute;
   display: flex;
+  font-size: 9px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
   top: 35px;
   left: 125px;
-  font-size: 9px;
   border-radius: 8px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
   text-align: center;
