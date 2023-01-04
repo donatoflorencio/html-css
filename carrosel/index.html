@@ -1,28 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index-02.css">
-  <title>Carrosel Giratório</title>
+  <link rel="stylesheet" href="index.css">
+  <title>Carrosl</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-  <div class="conteudo">
-    <div class="carrosel">
-        <div class="caixa__card cc__1">PROGRAMADOR <br> 
-           CS</div>
-        <div class="caixa__card cc__2">HTML</div>
-        <div class="caixa__card cc__3">CSS</div>
-        <div class="caixa__card cc__4">JS</div>
-        <div class="caixa__card cc__5">GIT</div>
-        <div class="caixa__card cc__6">REACT</div>
-        <div class="caixa__card cc__7">LÓGICA</div>
-        <div class="caixa__card cc__8">
-            <img src="ic-logo.png" width="40px">
-        </div>
+  <header class="header-menu" id="header">
+
+    <h1>Logo</h1>
+
+    <div class="logo-img">
+      <img src="ic-logo.png" alt="Logo" height="45px">
     </div>
-</div>
-</body>
+
+    <nav id="menu-nav">
+
+      <div class="logo-img" id="btn" onclick="toggleMenu()">
+        <span class="material-symbols-outlined">menu</span>
+      </div>
+
+      <ul class="menu" id="menu">
+        <li class="list-menu">Opções</li>
+        <li class="list-menu">Ações</li>
+        <li class="list-menu">Configurações</li>
+      </ul>
+
+    </nav>
+  </header>
+  <script src="script.js"></script>
 </body>
 </html>
